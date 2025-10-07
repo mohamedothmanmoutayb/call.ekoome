@@ -1,0 +1,33 @@
+############
+/vendor
+/node_modules
+/public/storage
+/storage/*.key
+.env
+.env.*
+.phpunit.result.cache
+Homestead.json
+Homestead.yaml
+/.idea
+/.vscode
+/error_log
+/.htaccess
+.phpunit.cache
+/index.php
+############
+/storage/framework/cache/*
+/storage/framework/sessions/*
+/storage/framework/views/*
+/bootstrap/cache/*
+
+# Logs
+*.log
+*.sql
+*.sqlite
+
+# NPM & Yarn
+npm-debug.log
+
+# OS generated
+.DS_Store
+Thumbs.db
